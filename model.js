@@ -94,7 +94,7 @@ function init() {
 	loadModel();
 };
 
-//extracted load model logic to its own function so as play nicely with switching between models in the UI.
+//extracted load model logic to its own function to play nicely with model switchin' in the UI.
 function loadModel() {
 	loader.load(models[models_index], function(gltf){
 		model = gltf.scene;
